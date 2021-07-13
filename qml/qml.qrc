@@ -1,0 +1,65 @@
+<RCC>
+	<qresource prefix="/luna/qml">
+		<file>Luna/Containers/qmldir</file>
+		<file>Luna/Containers/Expander.qml</file>
+		<file>Luna/Containers/Panel.qml</file>
+		<file>Luna/Containers/ScrollView.qml</file>
+
+		<file>Luna/Controls/qmldir</file>
+		<file>Luna/Controls/Button.qml</file>
+		<file>Luna/Controls/BusyIndicator.qml</file>
+		<file>Luna/Controls/CheckBox.qml</file>
+		<file>Luna/Controls/ComboBox.qml</file>
+		<file>Luna/Controls/DoubleSpinBox.qml</file>
+		<file>Luna/Controls/IntegerSpinBox.qml</file>
+		<file>Luna/Controls/LayoutSpacer.qml</file>
+		<file>Luna/Controls/ListView.qml</file>
+		<file>Luna/Controls/ListViewItem.qml</file>
+		<file>Luna/Controls/Menu.qml</file>
+		<file>Luna/Controls/MenuItem.qml</file>
+		<file>Luna/Controls/MenuSeparator.qml</file>
+		<file>Luna/Controls/ProgressBar.qml</file>
+		<file>Luna/Controls/ScrollBar.qml</file>
+		<file>Luna/Controls/Separator.qml</file>
+		<file>Luna/Controls/Slider.qml</file>
+		<file>Luna/Controls/SpinBox.qml</file>
+		<file>Luna/Controls/Switch.qml</file>
+		<file>Luna/Controls/Text.qml</file>
+		<file>Luna/Controls/TextField.qml</file>
+		<file>Luna/Controls/TreeView.qml</file>
+		<file>Luna/Controls/TreeViewArrow.qml</file>
+		<file>Luna/Controls/Vector3dEditor.qml</file>
+
+		<file>Luna/Dialogs/qmldir</file>
+		<file>Luna/Dialogs/AboutDialog.qml</file>
+
+		<file>Luna/Styles/qmldir</file>
+		<file>Luna/Styles/Colors.qml</file>
+		<file>Luna/Styles/Fonts.qml</file>
+		<file>Luna/Styles/Hints.qml</file>
+		<file>Luna/Styles/Icons.qml</file>
+
+		<file>Luna/Utils/qmldir</file>
+		<file>Luna/Utils/AnimationUtils.qml</file>
+		<file>Luna/Utils/BindingUtils.qml</file>
+		<file>Luna/Utils/ButtonShape.qml</file>
+		<file>Luna/Utils/EventLoopUtils.qml</file>
+		<file>Luna/Utils/FocusBorder.qml</file>
+		<file>Luna/Utils/GeometryUtils.qml</file>
+		<file>Luna/Utils/InputShape.qml</file>
+		<file>Luna/Utils/MenuUtils.qml</file>
+		<file>Luna/Utils/Platform.qml</file>
+		<file>Luna/Utils/QtObject2.qml</file>
+		<file>Luna/Utils/ScrollUtils.qml</file>
+		<file>Luna/Utils/SvgIcon.qml</file>
+		<file>Luna/Utils/SvgImage.qml</file>
+		<file>Luna/Utils/Tooltip.qml</file>
+
+		<file>Luna/MainWindow/qmldir</file>
+		<file>Luna/MainWindow/Inspector.qml</file>
+		<file>Luna/MainWindow/LeftPanel.qml</file>
+		<file>Luna/MainWindow/MenuBar.qml</file>
+		<file>Luna/MainWindow/ToolBar.qml</file>
+		<file>Luna/MainWindow/Window.qml</file>
+	</qresource>
+</RCC>

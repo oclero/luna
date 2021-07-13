@@ -1,0 +1,7 @@
+module Luna.MainWindow
+
+Inspector 1.0 Inspector.qml
+LeftPanel 1.0 LeftPanel.qml
+MenuBar 1.0 MenuBar.qml
+ToolBar 1.0 ToolBar.qml
+Window 1.0 Window.qml

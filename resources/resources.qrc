@@ -1,0 +1,15 @@
+<RCC>
+	<qresource prefix="/luna/resources">
+		<file>icons/check.svg</file>
+		<file>icons/combobox.svg</file>
+		<file>icons/down.svg</file>
+		<file>icons/left.svg</file>
+		<file>icons/minus.svg</file>
+		<file>icons/panelLeft.svg</file>
+		<file>icons/panelRight.svg</file>
+		<file>icons/plus.svg</file>
+		<file>icons/right.svg</file>
+		<file>icons/search.svg</file>
+		<file>icons/up.svg</file>
+	</qresource>
+</RCC>

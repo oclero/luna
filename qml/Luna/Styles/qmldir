@@ -1,0 +1,6 @@
+module Luna.Styles
+
+singleton Colors 1.0 Colors.qml
+singleton Fonts 1.0 Fonts.qml
+singleton Hints 1.0 Hints.qml
+singleton Icons 1.0 Icons.qml
