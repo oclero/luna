@@ -101,7 +101,7 @@ It fixes various behavior from default QML components, and also adds support for
 
 ## Author
 
-Olivier Cléro | [email](oclero@pm.me) | [website](https://www.olivierclero.com)
+Olivier Cléro | [email](mailto:oclero@pm.me) | [website](https://www.olivierclero.com)
 
 ## License
 
