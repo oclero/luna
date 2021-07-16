@@ -1,5 +1,11 @@
 <p align="center" style="text-align:center">
 	<img src="logo.svg" width="300px" alt="Luna logo"/>
+	</br>
+	</br>
+<img src="https://img.shields.io/badge/Version-1.0.0-16A8FF">
+<img src="https://img.shields.io/badge/License-MIT-3DA639"/>
+<img src="https://img.shields.io/badge/Language-QML-FFBC00">
+<img src="https://img.shields.io/badge/Qt-5.15.2+-41CD52?logo=qt">
 </p>
 
 # Luna
