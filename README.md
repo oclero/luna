@@ -1,5 +1,5 @@
 <p style="text-align:center">
-	<img src="logo.Svg" width="300px"/>
+	<img src="logo.svg" width="300px"/>
 </p>
 
 # Luna
