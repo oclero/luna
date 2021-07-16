@@ -8,7 +8,16 @@
 
 **Luna** is a QML components library (Buttons, CheckBoxes, SpinBoxes, etc.) aimed to desktop usage.
 
-It fixes various behavior from default QML components, and also adds support for much needed `double` SpinBoxes (the standard one handles only integers). It also provides a `TreeView`. These components are not 100% pure QML: they're based on C++ classes for the backend and logic.
+- Based on QtQuickControls 2.
+- **Fixes various behaviors** for default QML components.
+- Adds support for a much needed `DoubleSpinBox`, to handle doubles (the standard one handles only integers).
+- Provides a `TreeView`.
+- Provides a `Vector3dEditor` to handle `QVector3D` objects.
+- Lots of **animations** and **graphical effects**.
+
+These new components are not 100% pure QML: they're based on C++ classes for the backend and logic, for performance reasons.
+
+**Compatibility:** tested on Windows and macOS.
 
 **Table of Contents**
 
@@ -22,7 +31,7 @@ It fixes various behavior from default QML components, and also adds support for
 
 ## How to use
 
-1. Link with the `luna` library
+1. Link with the `luna` library.
 
 2. If you're statically linking, initialize the lib's resources:
 
@@ -52,11 +61,13 @@ It fixes various behavior from default QML components, and also adds support for
 	- `Styles`
 	- `Utils`
 
+	For detaied information about modules, read the [dedicated section](#moudles) below.
+
 ## Modules
 
 ### Containers
 
-- `Expander`: Allows to hide/show UI with a nice animation
+- `Expander`: Allows to hide/show UI with a nice animation.
 - `Panel`
 - `ScrollView`: Improved ScrollView that will scroll automatically to the item that gets active focus.
 
@@ -78,30 +89,30 @@ It fixes various behavior from default QML components, and also adds support for
 - `ScrollBar`
 - `Separator`
 - `Slider`
-- `SpinBox`: Default (integer) SpinBox with +/- buttons
+- `SpinBox`: Default (integer) SpinBox with +/- buttons.
 - `Switch`
 - `Text`
 - `TextField`
 - `TreeView`
 - `TreeViewArrow`
-- `Vector3dEditor`: Composed of 3 DoubleSpinBox and uses a `QVector3D` as value
+- `Vector3dEditor`: Composed of 3 DoubleSpinBox and uses a `QVector3D` as value.
 
 ### Utils
 
 - `AnimationUtils`: Allows to start an animation on a property.
 - `BindingUtils`: Allows to change a value without breaking existing bindings.
-- `ButtonShape`
+- `ButtonShape` : Generic shape for buttons.
 - `EventLoopUtils`: Allows to schedule a task.
-- `FocusBorder`
+- `FocusBorder` : Animated keyboard focus indicator.
 - `GeometryUtils`: Various computations of item sizes.
-- `InputShape`
+- `InputShape` : Generic shape for text input fields.
 - `MenuUtils`: Utilities to handle menus in QML.
 - `Platform`: Get current OS from QML.
 - `QtObject2`: QtObject that allows nesting of other QtObjects.
 - `ScrollUtils`: Utilities to handle ScrollView behaviors.
 - `SvgIcon`: Same as SvgImage but allows to change the overlay color.
 - `SvgImage`: An image that takes source from a SVG file and scales correctly.
-- `Tooltip`
+- `Tooltip`: Animated tooltip.
 
 ## Author
 
