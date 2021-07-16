@@ -1,3 +1,7 @@
+<p style="text-align:center">
+	<img src="logo.Svg" width="300px"/>
+</p>
+
 # Luna
 
 ![Screenshot](screenshot.png)
